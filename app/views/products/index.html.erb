@@ -1,3 +1,4 @@
+
 <p id="notice"><%= notice %></p>
 
 <h1>Products</h1>
@@ -8,6 +9,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Image url</th>
+      <th>Colour</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +20,7 @@
         <td><%= product.name %></td>
         <td><%= product.description %></td>
         <td><%= product.image_url %></td>
+        <td><%= product.colour %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -25,6 +28,59 @@
     <% end %>
   </tbody>
 </table>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6 col-md-12">
+      <h1>CAROUSEL</h1>
+      <p>4 x google images </p>
+      <strong>xyz</strong>
+
+    <div class="col-sm-6 col-md-12">
+      <h1><td><%=Base %></td></h1>
+      <p> Starter bundle including music, radio, TV & Film VOD, 19 TV channels and casual games. </p>
+      <strong>$/£/E 9 per month</strong>
+      <%= image_tag("base.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+
+    <div class="col-sm-3 col-md-6">
+      <h1><td> <%=Premium TV %></td></h1>
+      <p>An extra 99 TV channels, more casual games, radio stations & 99 video channels</p>
+      <strong>extra $/£/E 5 per month</strong>
+      <%= image_tag("premium.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+    
+    <div class="col-sm-3 col-md-6">
+      <h1><td> <%=Ultimate TV %></td></h1>
+      <p>Total of 999 TV channels, more casual games and 999 video brands.</p>
+      <strong>extra $/£/E 7 per month</strong>
+      <%= image_tag("ultimate.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+
+    <div class="col-sm-2 col-md-4">
+      <h1><td> <%=Movies++ %></td></h1>
+      <p>Premium movies, new releases & the latest premieres.</p>
+      <strong>extra $/£/E 9 per month</strong>
+      <%= image_tag("movies.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+
+    <div class="col-sm-2 col-md-4">
+      <h1><td> <%=Games++ %></td></h1>
+      <p>Booster games pack including AAA console games.</p>
+      <strong>extra $/£/E 9 per month</strong>
+      <%= image_tag("games.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+
+    <div class="col-sm-2 col-md-4">
+      <h1><td> <%=Sports++ %></td></h1>
+      <p> With live & exclusive rights including football, motorsport & fighting.</p>
+      <strong>extra $/£/E 9 per month</strong>
+      <%= image_tag("sports.jpg", class: "img-responsive") %>
+    </div><!-- /col -->
+ 
+  </div>
+</div>
 
 <br>
 
