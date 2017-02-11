@@ -1,0 +1,16 @@
+<div id="contact" class="container">
+  <h4> >> CONTACT << </h4> </br>
+  <div class="contact" alt="hackney office">
+      <div class="contactBox">
+        <div> 
+          <p> <span class="glyphicon glyphicon-envelope"> </span> patrickocr [at] gmail [.] com  </p>
+        </div>
+        <div> 
+          <p> <span class="glyphicon glyphicon-home"> </span> London [at] UK  </p>
+        </div>
+        <div>
+          <p> <span class="glyphicon glyphicon-phone"> </span> patrickocr [at] skype  </p>
+        </div>
+    </div>
+  </div>
+</div>
