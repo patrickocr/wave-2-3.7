@@ -67,35 +67,35 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="../CF/ruby/zytola/app/assets/images/headphonesy.jpg" alt="Music & Radio">
+        <img src="headphonesy.jpg" alt="Music & Radio">
           <div class="carousel-caption">
             <h4> MUSIC </h4>
              <p> CHECK OUT THE LATEST MUSIC VIA PLAYLISTS, STATIONS & DJ MIXES</p>
           </div>
         </div>
     <div class="item">
-        <img src="/CF/ruby/zytola/app/assets/images/tvy.jpg" alt="Broadcast TV">
+        <img src="tvy.jpg" alt="Broadcast TV">
           <div class="carousel-caption">
             <h4> TV CHANNELS </h4>
              <p> KICK BACK & WATCH YOUR TV FAVOURITE CHANNELS </p>
           </div>
         </div>
     <div class="item">
-      <img src="/CF/ruby/zytola/app/assets/images/vry.jpg" alt="Virtual Reality">
+      <img src="vry.jpg" alt="Virtual Reality">
           <div class="carousel-caption">
             <h4> VIRTUAL REALITY </h4>
              <p> DISCOVER NEW DIMENSIONS WITH 360 VIDEO & EXPLORE VIRTUAL WORLDS </p>
           </div>
         </div>
     <div class="item">
-      <img src="/CF/ruby/zytola/app/assets/images/joypadsy.jpg" alt="Gaming">
+      <img src="joypadsy.jpg" alt="Gaming">
           <div class="carousel-caption">
             <h4> GAMING </h4>
              <p> GET YOUR RETRO GROOVE ON OR CHECK OUT THE LATEST AAA SHOOTER </p>
           </div>
         </div>
     <div class="item">
-      <img src="/CF/ruby/zytola/app/assets/images/sportsy.jpg" alt="sports">
+      <img src="sportsy.jpg" alt="sports">
           <div class="carousel-caption">
             <h4> SPORTS </h4>
              <p> LIVE & DIRECT COVERAGE OF SPORTS EVENTS FROM AROUND THE WORLD </p>
@@ -149,10 +149,10 @@
   <div class="row">
 
   <div class="col-sm-6 col-md-12">
-     <h1><td><%= BASE%></td></h1>
+     <h1><td><%=BASE%></td></h1>
     <p> STARTER BUNDLE WITH EVERYTHING INCLUDING MUSIC, RADIO STATIONS, TV PROGRAMS & FILMS ON DEMAND, LIVE TV & RETRO & CASUAL GAMES >> </p> 
     <p class="price"> <strong> $9 PER MONTH </strong> </p>
-    <img src="<%=/assets/images/('base.jpg'):alt =>"base" %>" />
+    <%= image_tag("base.jpg", class: "img-responsive", alt: "base") %>
     </div>
   </div>
 <br></br>
@@ -163,14 +163,14 @@
     <h1><td><%= ULTIMATE TV%></td></h1>
     <p> INCLUDING NEWS, MUSIC, DRAMA, DOCS, REALITY & MORE >> </p> 
     <p class="price"> <strong> EXTRA $9 PER MONTH </strong> </p>
-    <%= image_tag("../ultimate.jpg", class: "img-responsive", :alt =>"ultimate")%> 
+    <%= image_tag("ultimate.jpg", class: "img-responsive", alt: "ultimate")%> 
   </div>
 
   <div class="col-md-6 col-xs-12">
     <h1><td><%= MOVIES %></td></h1>
     <p> INCLUDING HOLLYWOOD, INDIE & ASIAN CINEMA PREMIERES & CLASSICS >> </p> 
     <p class="price"> <strong> EXTRA $9 PER MONTH </strong> </p>
-    <%= image_tag("/zytola/app/assets/images/movies.jpg", class: "img-responsive", :alt =>"movies")%> 
+    <%= image_tag("movies.jpg", class: "img-responsive", alt: "movies")%> 
   </div>
 
   </div>
@@ -181,14 +181,14 @@
     <h1><td><%= SPORTS %></td></h1>
     <p> INCLUDING LIVE FOOTBALL, EXTREME SPORTS, DRONE RACING & MMA >> </p>
     <p class="price"> <strong> EXTRA $9 PER MONTH </strong> </p>
-    <%= image_tag("../CF/ruby/zytola/app/assets/images/sports.jpg", class: "img-responsive", :alt =>"sports")%> 
+    <%= image_tag("sports.jpg", class: "img-responsive", alt: "sports")%>
   </div>
 
   <div class="col-md-6 col-xs-12">
     <h1><td><%= GAMES %></td></h1>
     <p> INCLUDING MMOGS, CONSOLE, RETRO & CASUAL GAMES >> </p>
     <p class="price"> <strong> EXTRA $9 PER MONTH </strong> </p>    
-    <%= image_tag("/pocr/CF/ruby/zytola/app/assets/images/games.jpg", class: "img-responsive", alt="games")%> 
+    <%= image_tag("games.jpg", class: "img-responsive", alt: "games")%>
   </div>
 
   </div>
